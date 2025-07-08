@@ -29,8 +29,6 @@ This is a modern, responsive website built using HTML, CSS, and the Bootstrap fr
 ├── about.html
 ├── /css
 │   └── style.css
-├── /images
-│   └── (your site images here)
 └── README.md
 
 🧠 What I Learned
