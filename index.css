@@ -711,7 +711,7 @@ h1 span{
 
     footer{
         background-color: black;
-        padding: 5rem 0rem;
+        padding: 3rem 0rem;
         margin: 0;
     }
 
@@ -721,12 +721,12 @@ h1 span{
         align-items: center;
         justify-content: center;
         margin: 0;
+        gap: 7rem;
 
     }
 
     .foot-intro{
-        padding-left: 100px;
-        width: 40%;
+        /* padding-left: 100px; */
         
         
     }
@@ -778,42 +778,6 @@ h1 span{
         color: red;
     }
 
-    .foot-info{
-        
-    width: 30%;
-    }
-
-
-    .foot-info h4{
-        color: white;
-    }
-
-    .fot{
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-
-    }
-
-    .fot-pic{
-        width: 25%;
-    }
-
-    .fot-pic img{
-        width: 100%;
-    }
-
-    .fot-wrd{
-        line-height: 2.5rem;
-    }
-
-    .fot-wrd h6{
-        color: gray;
-    }
-
-    .fot-wrd p{
-        color: white;
-    }
 
     .happy-foot h4{
         color: white;
@@ -851,27 +815,6 @@ h1 span{
         
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -965,35 +908,9 @@ h1 span{
         padding: 0.6rem 1.5rem;
     }
 
-    .foot-div{
-        display: flex;
-        flex-direction: column;
-        gap: 3rem;
-    }
-
     footer{
-        padding: 4rem 1rem;
         display: none;
     }
-
-    .foot-intro{
-        width: 100%;
-        padding-left: 0;
-    }
-
-    .fot-pic{
-        width: 50%  ;
-    }
-
-
-
-
-
-
-
-    
-
-
 
 
 
