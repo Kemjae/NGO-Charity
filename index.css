@@ -1,0 +1,1001 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER */
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 1.2rem 3rem;
+
+    }
+
+    .head-icons{
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        padding-right: 20rem;
+        font-size: 1.2rem;
+        cursor: pointer;
+        width: fit-content;
+    }
+
+    .head-icons .fa-brands:hover{
+        color: red;
+    }
+
+    .head-icons .fa-solid:hover{
+        color: red;
+    }
+
+    .icon-info{
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        line-height: 0.3rem;
+        color: rgb(67, 66, 66);
+
+    }
+    .icon-info p{
+        font-size: small;
+        font-weight: 500;
+        line-height: 0.3rem;
+
+    }
+
+    .icon-info .fa-solid{
+        font-size: 2.9rem;
+
+    }
+
+    .nav-merge{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .nav-merge button{
+        border: none;
+        outline: none;
+        padding: 0.7rem 2rem;
+        background-color: red;
+        color: white;
+        font-weight: 500;
+        font-size:1.1rem;
+    }
+
+    .nav-merge button:hover{
+        background-color: rgb(190, 6, 6);
+    }
+
+/* NAVBAR */
+.navbar {
+display: flex;
+align-items: center;
+background-color: black;
+}
+.logo{
+padding-left: 8rem;
+}
+
+.ham{
+        display: none;
+    }
+
+
+.logo img {
+height: 3rem;
+}
+
+.nav-links {
+list-style: none;
+display: flex;
+margin-left: auto;
+align-items: center;
+
+}
+
+.nav-links li {
+position: relative;
+}
+
+.nav-links a {
+display: block;
+padding: 15px 20px;
+color: white;
+text-decoration: none;
+}
+
+.nav-links a:hover {
+color: red;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+display: none;
+position: absolute;
+background-color: #444;
+min-width: 180px;
+top: 100%;
+left: 0;
+z-index: 999;
+background-color: white;
+}
+
+.dropdown-menu li {
+width: 100%;
+list-style: none;
+}
+
+.dropdown-menu a {
+padding: 12px 16px;
+color: black;
+cursor: pointer;
+}
+
+nav #i {
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    padding-left: 1rem;
+
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+
+#drop-li{
+    color: black;
+}
+
+#drop-li:hover{
+    color: red;
+}
+
+/* CAROUSEL */
+
+.carousel-item img{
+    height: 120vh;
+    object-fit: cover;
+    width: 100%;
+    image-resolution: 8rem;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 1;
+}
+
+.carousel-caption {
+    z-index: 2;
+    position: relative;
+}
+
+/* FOR CAROUSEL TEXT */
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item .custom-text {
+    position: absolute;
+    top: 30%;           
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+
+.carousel-item .custom-text h1 {
+    font-size: 4rem;
+    font-weight: 1000;
+}
+
+.custom-text h1 span{
+    color: red;
+}
+
+.carousel-item .custom-text p {
+    font-size: 2rem;
+}   
+
+.custom-text button{
+        border: none;
+        outline: none;
+        padding: 0.7rem 2.2rem;
+        background-color: red;
+        color: white;
+        font-weight: 500;
+        font-size:1.5rem;
+}
+
+.custom-text button:hover{
+    background-color: white;
+    color: red;
+}
+
+/* DOWN CAROUSEL */
+
+.pens{
+    border-top: white 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0rem;
+    position: absolute;
+    top: 80%;           
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+    color: white;
+    text-align: center;
+    z-index: 2;
+    color: white;
+}
+
+.provide p{
+    font-size: small;
+}
+
+.time {
+    display: flex;
+    gap: 1.8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.unit {
+    border: solid red 7px;
+    width: 5.5rem;
+    line-height: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    height: 5.5rem;
+
+}
+
+#sec-2{
+    /* background-color: rgb(171, 2, 2). */
+}
+
+
+
+.don{
+    background-image: url(images/61-400x400.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:35vh;
+    z-index: 0;
+    width: 100%;
+
+}
+
+
+.don::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 0, 0, 0.642);
+}
+
+.don > * {
+    position: relative;
+    z-index: 1;
+}
+
+.don button{
+    padding: 0.7rem 1.8rem;
+    background-color: rgba(240, 248, 255, 0);
+    border: white solid 2px ;
+    cursor: pointer;
+    color: white;
+}
+
+.don button:hover{
+    color: red;
+    background-color: white;
+
+}
+
+.vol{
+    background-image: url(images/5-400x400.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:35vh;
+    z-index: 0;
+    width: 100%;
+
+}
+
+.vol::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:rgba(194, 3, 3, 0.797);
+}
+
+.vol > * {
+    position: relative;
+    z-index: 1;
+}
+
+.vol button{
+    background-color: rgba(240, 248, 255, 0);
+    border: white solid 2px ;
+    cursor: pointer;
+    color: white;
+    padding: 0.7rem 1.8rem;
+
+}
+
+.vol button:hover{
+    color: red;
+    background-color: white;
+
+}
+
+.ado{
+    background-image: url(images/heart-in-handphoto-400x400.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:35vh;
+    z-index: 0;
+    width: 100%;
+
+}
+
+.ado::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(192, 2, 2, 0.89);
+}
+
+.ado > * {
+    position: relative;
+    z-index: 1;
+}
+
+.ado button{
+    background-color: rgba(240, 248, 255, 0);
+    border: white solid 2px ;
+    cursor: pointer;
+    color: white;
+    padding: 0.7rem 1.8rem;
+
+}
+
+.ado button:hover{
+    color: red;
+    background-color: white;
+
+}
+
+#sec-3{
+    padding: 2rem 1rem;
+    background-color: rgba(128, 128, 128, 0.164);
+}
+
+#tri-info{
+    line-height: 1.7rem;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+#tri-info button{
+    border: none;
+    outline: none;
+    padding: 0.7rem 2rem;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    font-size:1.1rem;
+    cursor: pointer;
+}
+
+#tri-info button:hover{
+    background-color: rgb(190, 6, 6);
+
+}
+
+.gard{
+    position: relative;
+    
+}
+
+
+
+.gard p{
+    color: rgba(0, 0, 0, 0.584);
+}
+
+.gard img{
+    width: 100%;
+}
+
+.gard button{
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+    background-color: white;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.685);
+    border: rgba(0, 0, 0, 0.685) solid 2px;
+}
+
+.gard button:hover{
+    color: red;
+    border: red solid 3px;
+    transition: 0.5s ease-in;
+}
+
+.gard h1{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.gard h1:hover{
+    color: red;
+}
+
+.gard-pos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    background-color: red;
+    width: 20%;
+    height: 7vh;
+    line-height: 1.0rem;
+    border-radius: 100%;
+    position: absolute;
+    right:2rem;
+    top: 11rem;
+
+}
+
+.gard-pos p{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.gard-icons{
+    margin-top: 4.1rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center ;
+}
+
+.gard-icons .fa-solid{
+    color: red;
+}
+
+#sec-5{
+    background-image: url(images/heart-in-handphoto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.445);
+    background-blend-mode: overlay;
+    padding: 10rem 0rem;
+
+
+}
+
+
+.art{
+    border-top: solid 1rem whitesmoke;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.art span{
+    color: red;
+}
+
+.art button{
+    border: none;
+    outline: none;
+    padding: 0.7rem 2rem;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    font-size:1.3rem;
+}
+
+.art button:hover{
+    background-color: rgb(190, 6, 6);
+}
+
+#sec-6{
+    padding: 4rem 0rem;
+}
+
+.teer-info h1{
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.teer-info span{
+    color: red;
+}
+
+.teer-info p{
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.teer-info button{
+    border: none;
+    outline: none;
+    padding: 0.7rem 2rem;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    font-size:  1.3rem;
+    cursor: pointer;
+}
+
+.teer-info button:hover{
+    background-color: rgb(190, 6, 6);
+
+}
+
+.tor  span{
+    color: red;
+}
+
+.tor h1{
+    font-size: 4rem;
+}
+
+.tor button{
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem 1.7rem;
+    background-color: white;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.685);
+    border: rgba(0, 0, 0, 0.685) solid 2px;
+}
+
+.tor button:hover{
+    color: red;
+    border: red solid 3px;
+    transition: 0.5s ease-in;
+}
+
+
+#sec-7{
+    background-image: url(images/tumblr_inline_oec4vqozud1qb5a6v_1280-500x297.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(239, 3, 3, 0.811);
+    background-blend-mode:overlay;
+    padding: 4rem 0rem;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.seven{
+    display: flex;
+    gap:2rem;
+}
+
+.seven .fa-solid{
+    font-size: 4rem;
+}
+
+#sec-9{
+    background-image: url(images/1.1_homepage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 9rem 0rem;
+    display: flex;
+    align-items: center;
+}
+
+#sec-9 h1{
+    font-size: 4rem;
+}
+
+.kine{ 
+    color:red;
+    font-weight: 600;
+}
+
+h1 span{
+    color: black;
+    font-weight: 600;
+    }
+
+    form input{
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    outline: none;
+    border: none;
+    }
+
+    form textarea{
+    width: 100%;
+    outline: none;
+    border: none;
+    }
+
+    form button{
+    border: none;
+    outline: none;
+    padding: 0.4rem 1.5rem;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    font-size:1rem;
+    cursor: pointer;
+
+    }
+
+    form button:hover{
+    background-color: rgb(190, 6, 6);
+    }
+
+    #sec-10{
+        background-color: red;
+        padding: 3rem 0rem;
+        
+    }
+
+    .Nwl input{
+        outline: none;
+        border: none;
+        padding: 0.1rem 1rem;
+    }
+
+    .Nwl button{
+    border:solid 2px white;
+    outline: none;
+    padding: 0.1rem 1.5rem;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    font-size:  1rem;
+    cursor: pointer;
+    }
+
+    .Nwl button:hover{
+    border:solid 2px tomato;
+        
+    }
+
+    footer{
+        background-color: black;
+        padding: 5rem 0rem;
+        margin: 0;
+    }
+
+    .foot-div{
+        display: flex;
+        padding:0px 10rem;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+
+    }
+
+    .foot-intro{
+        padding-left: 100px;
+        width: 40%;
+        
+        
+    }
+
+    .foot-intro p{
+        color: grey;
+    }
+
+    .foot-intro .fa-solid{
+        color: red;
+        font-size: 1.3rem;
+    }
+
+    .foot-icons{
+        display: flex;
+        gap: 1.5rem;
+        font-size: 1.2rem;
+        width: fit-content;
+        color: white;
+    }
+
+    .foot-icons .fa-brands{
+        cursor: pointer;
+    }
+
+    .foot-icons .fa-brands:hover{
+        color: red;
+        font-size: 1.3rem;
+    }
+
+    .foot-icons .fa-solid{
+        color: white;
+        font-size: 1.3rem;
+    }
+
+    .foot-icons .fa-solid:hover{
+        color: red;
+    }
+
+    .foot-intro span{
+        color: white;
+    }
+
+    .foot-intro a{
+        text-decoration: none;
+    }
+
+    .foot-intro span:hover{
+        color: red;
+    }
+
+    .foot-info{
+        
+    width: 30%;
+    }
+
+
+    .foot-info h4{
+        color: white;
+    }
+
+    .fot{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+    }
+
+    .fot-pic{
+        width: 25%;
+    }
+
+    .fot-pic img{
+        width: 100%;
+    }
+
+    .fot-wrd{
+        line-height: 2.5rem;
+    }
+
+    .fot-wrd h6{
+        color: gray;
+    }
+
+    .fot-wrd p{
+        color: white;
+    }
+
+    .happy-foot h4{
+        color: white;
+
+    }
+
+    .happy-joy{
+        width: 50%;
+        
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+
+    }
+
+    .hap{
+        width: 25%;
+
+    }
+
+    .hap img{
+        width: 100%;
+    }
+
+    .foot-cop{
+        border-top: solid gray 2px;
+        margin-top: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: gray;
+        padding:0rem 10rem;
+        margin-right: 20rem;
+
+        
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+
+    header{
+        display: none;
+    }
+
+    .ham{
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 1.3rem;
+        gap: 1.5rem;
+        cursor: pointer;
+    }
+
+    .logo img{
+        height: 3.2rem;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .logo{
+        padding: 0;
+    }
+
+    .carousel-item .custom-text h1{
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .carousel-item .custom-text p{
+        font-size:1.2rem ;
+        margin-bottom: 1rem;
+    }
+
+    .custom-text button{
+        font-size: 1rem;
+    }
+
+    .pens{
+        display: none;
+    }
+
+    .gard-pos{
+        display: none;
+    }
+
+    .art{
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    .hart{
+        display:none;
+    }
+
+    .teer-info h1{
+        font-size: 2rem;
+    }
+
+    #sec-7{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .seven{
+        flex-direction: column;
+    }
+
+    .hrt{
+        text-align: center;
+    }
+
+    .gard{
+        text-align: center;
+    }
+
+    .Nwl{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Nwl input{
+        text-align: center;
+        padding: 0.6rem 1.5rem;
+    }
+
+    .foot-div{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    footer{
+        padding: 4rem 1rem;
+        display: none;
+    }
+
+    .foot-intro{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .fot-pic{
+        width: 50%  ;
+    }
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+}
